@@ -1,0 +1,43 @@
+body {
+    background-color: #ffebee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+.image {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-bottom: 30px
+}
+h1 {
+    color: #e57373;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#yesBtn {
+    background-color: #81c784;
+    color: white;
+}
+#noBtn {
+    background-color: #e57373;
+    color: white;
+    position: relative;
+}
+#celebration {
+    font-size: 24px;
+    color: #f06292;
+    margin-top: 20px;
+}
